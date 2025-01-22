@@ -1,0 +1,1 @@
+for(let i=1;i<=100;i++)console.log(i%3===0?(i%5===0?(i%7===0?"FizzBuzzBang":"FizzBuzz"):(i%7===0? "FizzBang":"Fizz")):(i%5===0?(i%7===0?"BuzzBang":"Buzz"):(i%7===0?"Bang":i)));
